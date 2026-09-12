@@ -1,0 +1,15 @@
+Data Structures - Chapter 1: Arrays and Linked Lists
+ 
+Arrays are contiguous blocks of memory storing elements of the same type. 
+Access is O(1) by index, but insertion and deletion at arbitrary positions is O(n).
+ 
+Linked Lists consist of nodes where each node holds a value and a pointer to the next node.
+- Singly Linked List: one pointer (next)
+- Doubly Linked List: two pointers (next, prev)
+Insertion/deletion at head is O(1), but search is O(n).
+ 
+Hash Tables use a hash function to map keys to array indices, providing O(1) average-case
+lookups, insertions, and deletions. Collisions are handled via chaining or open addressing.
+ 
+Stacks (LIFO) and Queues (FIFO) are abstract data types commonly implemented with arrays or linked lists.
+ 

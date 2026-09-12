@@ -1,0 +1,15 @@
+Operating Systems - Chapter 2: Process Management
+
+A process is a program in execution. Each process has its own address space, stack, heap, and registers.
+Process states: New, Ready, Running, Waiting, Terminated.
+
+The CPU scheduler selects which process runs next using algorithms like:
+- First-Come First-Served (FCFS): simple, but can cause convoy effect
+- Shortest Job First (SJF): optimal average waiting time, but requires future knowledge
+- Round Robin (RR): time slices ensure fairness; widely used in time-sharing systems
+
+Context Switching saves the state of the current process and loads the state of the next.
+It introduces overhead but is necessary for multitasking.
+
+Threads are lightweight processes sharing the same address space.
+Multithreading improves concurrency but introduces synchronization challenges (race conditions, deadlocks).

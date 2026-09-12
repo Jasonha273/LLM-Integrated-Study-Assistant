@@ -1,0 +1,15 @@
+courses:
+  - name: "Data Structures"
+    file: "data_structures.txt"
+    num_questions: 5
+    difficulty: "medium"
+    question_types:
+      - "multiple_choice"
+      - "short_answer"
+
+  - name: "Operating Systems"
+    file: "operating_systems.txt"
+    num_questions: 3
+    difficulty: "hard"
+    question_types:
+      - "short_answer"
